@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hashicorp/raft"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/tdx/raft"
 )
 
 const maxBatchSize = 1024 * 1024

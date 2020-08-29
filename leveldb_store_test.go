@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/raft"
 	"github.com/syndtr/goleveldb/leveldb"
+	"github.com/tdx/raft"
 )
 
 func testLevelDBStoreLow(t testing.TB) *LevelDBStore {
